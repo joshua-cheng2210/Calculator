@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build && javascript-obfuscator ./dist/assets/index.js --output ./dist/assets/index.js --simplify false",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "javascript-obfuscator": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
