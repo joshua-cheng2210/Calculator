@@ -1,13 +1,12 @@
 # Calculator 
 ## project details and purpose
-- building a simple 2D game with front-end and back-end with HTML, CSS and javascript and trying out new module like "phaser" (but its still vanilla Js)
 ## project demo (in img or vid)
 [![Demo video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID](https://github.com/joshua-cheng2210/MiniGhost/blob/main/assets/MiniGhost-demo.mp4)
 
 ## Usage and Installation
 '''bash
 git clone https://github.com/joshua-cheng2210/Calculator.git
-cd MiniGhost
+cd Calculator
 npm install
 npm run dev
 '''
@@ -15,12 +14,9 @@ npm run dev
 ## Packages used
 
 ## Topics learnt
-- how framework or module works in javascript
+- how React works
 
 ## Mistakes made that got me debugging 24 hours
-- sometimes the "dist/assets/index.js" is named as something else like "dist/assets-jnbvcfgthyj3y/index.js" with some numbers at the back, this is because vite this this for some reason. easy fix is to have a cite.config.js
-- you didn't put "javascript-obfuscator": "^4.0.0" in your dev dependencies. the literal thing that you used to compile and bundle your project
-- your jekyll .yml that you gotten from git hub uses ruby to run. i didn't have ruby installed and is probably causing the whole problem. just used the .yml from previous project
 ## how to tweak this project for your own uses (for collaborative developers)
 - additional features can be added to the game
 
