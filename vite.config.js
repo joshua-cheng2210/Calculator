@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   build: {
-    base: './', // Replace 'Calculator' with your repository name
+    base: '/Calculator/', // Replace 'Calculator' with your repository name
     outDir: 'dist',
     rollupOptions: {
       input: {
