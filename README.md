@@ -1,5 +1,8 @@
 # Calculator 
 ## project details and purpose
+- this is just my very introductory course of building a simple front-end and back-end project
+- i was closely following this tutorial - https://www.youtube.com/watch?v=DgRrrOt0Vr8
+  
 ## project demo (in img or vid)
 - https://joshua-cheng2210.github.io/Calculator/
 
