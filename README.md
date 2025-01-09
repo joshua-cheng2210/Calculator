@@ -1,22 +1,31 @@
 # Calculator 
 ## project details and purpose
 ## project demo (in img or vid)
-[![Demo video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID](https://github.com/joshua-cheng2210/MiniGhost/blob/main/assets/MiniGhost-demo.mp4)
+- https://joshua-cheng2210.github.io/Calculator/
 
 ## Usage and Installation
 '''bash
 git clone https://github.com/joshua-cheng2210/Calculator.git
 cd Calculator
 npm install
-npm run dev
+num run dev
 '''
 
 ## Packages used
 
 ## Topics learnt
 - how React works
+- common javascript concepts
+    - hooks
+        - useReducer()
+        - useState()
+- to deploy a project through git hub pages
+- learnt how to break down UI/UX into smaller and managable components to build
+
 
 ## Mistakes made that got me debugging 24 hours
+- I had to take some time to learn how to use the hooks. it was a new concept for me and it required a little more brain power to learn compared to learning the basics of coding in python
+
 ## how to tweak this project for your own uses (for collaborative developers)
 - additional features can be added to the game
 
